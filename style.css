@@ -1,108 +1,143 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;700&display=swap');
-body {
-    background: #D4EAE2;
-    font-family: 'Manrope';
-    font-style: normal;
-}
-
-.header_menu {}
-
-.menu_logo {
-    position: absolute;
-    left: 71px;
-    border: 1px solid black;
-}
-
-.menu_list {
-    display: flex;
-    position: relative;
-    list-style-type: none;
-    /* Убираем маркеры */
-    justify-content: center;
-    height: 45px;
-    border: 1px solid black;
-}
-
-.menu_link {
-    font-size: 11px;
-    font-weight: 31px;
-    font-family: 'Manrope', sans-serif;
-    color: black;
-    padding: 35px;
-}
-
-.button_menu {
-    position: absolute;
-    right: 71px;
-    border: 1px solid black;
-}
-
-.button {
-    display: inline-block;
-    background: #00623B;
-    color: #fff;
-    width: 93px;
-    height: 35px;
-    left: 918px;
-    top: 5px;
-    padding: 10px 30px;
-    justify-content: center;
-    border: none;
-    border-radius: 6px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    text-decoration: none;
-    font-family: 'Manrope', sans-serif;
-    font-size: 11px;
-    line-height: 15px;
-    font-weight: normal;
-    cursor: pointer;
-}
-
-.title {
-    position: absolute;
-    width: 520px;
-    height: 208px;
-    left: 30%;
-    right: auto;
-    top: 139px;
-    border: 1px solid black;
-}
-
-.title_upper {
-    position: absolute;
-    width: 520px;
-    height: 123px;
-    top: -80px;
-    text-align: center;
-    font-family: 'Manrope', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 90px;
-    line-height: 123px;
-    color: #00623B;
-    letter-spacing: -0.03em;
-    border: 1px solid black;
-}
-
-.title_lower {
-    position: absolute;
-    width: 520px;
-    top: 5px;
-    text-align: center;
-    font-family: 'Manrope', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 90px;
-    line-height: 123px;
-    color: #FFFFFF;
-    letter-spacing: -0.03em;
-    border: 1px solid black;
-}
-
-.image_cups {
-    position: absolute;
-    width: 500px;
-    height: 506px;
-    top: 289px;
-    left: 25%;
-}
+                    @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;700&display=swap');
+                    body {
+                        background: #D4EAE2;
+                        font-family: 'Manrope';
+                        font-style: normal;
+                    }
+                    
+                    .header_menu {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        padding: 0px;
+                        position: static;
+                    }
+                    
+                    .menu_logo {
+                        position: absolute;
+                        left: 71px;
+                    }
+                    
+                    .menu_list {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        padding: 0px;
+                        position: relative;
+                        left: 350px;
+                        list-style-type: none;
+                        /* Убираем маркеры */
+                        justify-content: center;
+                        height: 45px;
+                    }
+                    
+                    .menu_link {
+                        font-size: 11px;
+                        font-weight: 31px;
+                        font-family: 'Manrope', sans-serif;
+                        color: black;
+                        padding: 35px;
+                        text-shadow: black 0 0 10px;
+                        /* Свечение голубого цвета */
+                        color: #000000;
+                    }
+                    
+                    .menu_link:hover {
+                        color: #fff;
+                    }
+                    
+                    .button_menu {
+                        position: absolute;
+                        right: 71px;
+                    }
+                    
+                    .button {
+                        display: inline-block;
+                        background: #00623B;
+                        color: #fff;
+                        width: 93px;
+                        height: 35px;
+                        left: 918px;
+                        top: 5px;
+                        padding: 10px 30px;
+                        justify-content: center;
+                        border: none;
+                        border-radius: 6px;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                        text-decoration: none;
+                        font-family: 'Manrope', sans-serif;
+                        font-size: 11px;
+                        line-height: 15px;
+                        font-weight: normal;
+                        cursor: pointer;
+                    }
+                    
+                    .button:hover {
+                        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19)
+                    }
+                    
+                    .title {
+                        position: absolute;
+                        width: 520px;
+                        height: 208px;
+                        left: 30%;
+                        right: auto;
+                        top: 180px;
+                    }
+                    
+                    .title_upper {
+                        position: absolute;
+                        width: 520px;
+                        height: 123px;
+                        top: -80px;
+                        text-align: center;
+                        font-family: 'Manrope', sans-serif;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 90px;
+                        line-height: 123px;
+                        color: #00623B;
+                        letter-spacing: -0.03em;
+                    }
+                    
+                    .title_lower {
+                        position: absolute;
+                        width: 520px;
+                        top: 5px;
+                        text-align: center;
+                        font-family: 'Manrope', sans-serif;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 90px;
+                        line-height: 123px;
+                        color: #FFFFFF;
+                        letter-spacing: -0.03em;
+                    }
+                    
+                    .image_cups {
+                        position: absolute;
+                        width: 532px;
+                        height: 390px;
+                        top: 328px;
+                        right: 321px;
+                    }
+                    
+                    .image_c1 {
+                        position: absolute;
+                        width: 176.55px;
+                        height: 159.47px;
+                        top: 428px;
+                        right: 220px;
+                    }
+                    
+                    .image_c2 {
+                        position: absolute;
+                        width: 140.16px;
+                        height: 179.06px;
+                        right: 826px;
+                        top: 493px;
+                    }
+                    
+                    .shadow_one {}
+                    
+                    .shadow_two {}
