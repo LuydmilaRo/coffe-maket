@@ -5,7 +5,7 @@
             
             .header_menu {
                 justify-content: space-between;
-                width: 900px;
+                width: 1000px;
                 margin: 45px auto 0;
                 display: flex;
                 flex-direction: row;
@@ -18,13 +18,14 @@
                 flex-direction: row;
                 justify-content: center;
                 align-items: center;
+                border: none;
                 padding: 10px 30px;
                 background: #00623B;
                 border-radius: 6px;
                 font-family: 'Manrope', sans-serif;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 11px;
+                font-size: 13px;
                 line-height: 15px;
                 letter-spacing: 0.02em;
                 color: #FFFFFF;
@@ -46,17 +47,11 @@
             }
             
             .menu_link {
-                width: 53px;
-                height: 15px;
-                white-space: nowrap;
-                font-size: 11px;
-                font-style: normal;
-                font-weight: normal;
+                font-size: 13px;
                 font-family: 'Manrope', sans-serif;
-                line-height: 15px;
                 letter-spacing: 0.02em;
                 color: black;
-                padding: 35px;
+                padding: 40px;
                 color: #000000;
             }
             
@@ -101,13 +96,14 @@
                 position: relative;
                 display: flex;
                 justify-content: center;
+                left: 40px;
             }
             
             .image_cups {}
             
             .image_c1 {
                 position: relative;
-                left: -20px;
+                left: -30px;
                 top: -10px;
             }
             
